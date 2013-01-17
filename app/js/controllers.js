@@ -94,6 +94,9 @@ function LessCtrl($scope, $http, ap_less) {
         },0);
     };
     
+    $scope.importLessVariables= function () {    	
+    };
+    
     $scope.isViewLoading = false;
     
     $scope.$on('$routeChangeStart', function() {
